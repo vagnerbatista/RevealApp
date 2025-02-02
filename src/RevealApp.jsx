@@ -55,12 +55,12 @@ const RevealApp = () => {
 
   return (
     <div className="d-flex flex-column justify-content-center align-items-center min-vh-100 p-4">
-      <h1 className="text-2xl font-bold mb-4" style={{ fontSize: 100, color: "#da5162" }}>
+      <h1 className="text-2xl font-bold mb-4" style={{ fontSize: 70, color: "#da5162" }}>
         Chá Revelação
       </h1>
       {new Date() < revealTime ? (
         <>
-          <h3 className="text-center" style={{ fontSize: 45, color: "#17a2b8" }}>
+          <h3 className="text-center" style={{ fontSize: 40, color: "#17a2b8" }}>
             Revelação em:
             <br />
             <Countdown date={revealTime} />
